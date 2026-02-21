@@ -19,6 +19,8 @@ grep -r "password" .
 grep -r "passwd" .
 grep -ri "api.key" .
 ```
+##Exploitation
+simply add /password_viewer in url
 
 ## Screenshot
  ![Plain-text](../images/Plain-text.png)
