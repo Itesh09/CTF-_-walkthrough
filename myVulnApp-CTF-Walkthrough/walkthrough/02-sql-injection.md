@@ -4,7 +4,7 @@
 
 The search functionality at `/search` was tested for SQL injection vulnerabilities.
 
-**Screenshot:** ![Search Page](../images/search-page.png)
+**Screenshot:** ![Search Page](../images.sql-injection.png)
 
 ## Initial Testing
 
