@@ -62,9 +62,4 @@ This walkthrough is for educational purposes only.
 
 ## 👤 Author
 
-[Your Name/Handle]
-
-## ⭐ Acknowledgements
-
-- CTF Platform Creators
-- [Any other acknowledgements]
+Itesh09
