@@ -6,7 +6,7 @@ While viewing our profile, we noticed the URL pattern:
 
 `http://152.42.242.139:5000/profile/4/`
 
-**Screenshot:** ![Profile Page](../images/profile-page.png)
+**Screenshot:** ![Profile Page](../images/profile.png)
 
 ## Exploitation
 
