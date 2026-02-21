@@ -3,6 +3,7 @@
 ## Objective
 Find exposed passwords in the application.
 
+
 ## Common Locations
 
 - Source code comments
@@ -19,6 +20,5 @@ grep -r "passwd" .
 grep -ri "api.key" .
 ```
 
-## Flag
-
-Locate the plaintext password to get the flag.
+## Screenshot
+ ![Plain-text](../images/Plain-text.png)
