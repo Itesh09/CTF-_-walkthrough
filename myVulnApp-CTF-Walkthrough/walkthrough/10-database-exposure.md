@@ -40,7 +40,7 @@ CREATE TABLE users (
 );
 ```
 
-Screenshot: ![Database Schema](../images/database-schema.png)
+Screenshot: ![Database Schema](../images/databse-exp.png)
 
 ## Extracting All Flags
 
