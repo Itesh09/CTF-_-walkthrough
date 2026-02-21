@@ -35,4 +35,4 @@ Create a file named `xss.png` with content:
 Successfully execute XSS or find the flag in uploaded files.
 
 #screenshot
-
+ ![fil-upload](../images/file-upload.png)
