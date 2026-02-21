@@ -7,7 +7,6 @@ Through path traversal vulnerabilities, we discovered and downloaded the SQLite 
 **File:** `app.db`  
 **Location:** Accessible via path traversal or direct download
 
-**Screenshot:** ![Database Download](../images/database-download.png)
 
 ## Database Schema
 
