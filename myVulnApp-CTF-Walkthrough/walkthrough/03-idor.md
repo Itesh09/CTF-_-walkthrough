@@ -19,7 +19,7 @@ We manually changed the ID parameter to access other users' profiles:
 | `/profile/3/` | 3 | ctfadmin | ADMIN |
 | `/profile/4/` | 4 | bob | USER |
 
-**Screenshot:** ![Admin Profile](../images/admin-profile.png)
+**Screenshot:** ![Admin Profile](../images/admin-panel.png)
 
 ## Flag Found
 
