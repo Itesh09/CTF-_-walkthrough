@@ -33,3 +33,6 @@ Create a file named `xss.png` with content:
 ## Flag
 
 Successfully execute XSS or find the flag in uploaded files.
+
+#screenshot
+
