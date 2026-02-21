@@ -15,13 +15,13 @@ We tested for XSS first (didn't work), then tried SQL injection:
 ' OR 1=1 --
 ```
 
-Screenshot: ![SQL Payload](../images/sql-payload.png)
+
 
 ## Results
 
 The payload returned ALL notes from ALL users, bypassing the intended user-specific filtering.
 
-Screenshot: ![SQL Results](../images/sql-results.png)
+Screenshot: ![SQL Results](../images/sql-injection.png)
 
 ## Interesting Findings
 
