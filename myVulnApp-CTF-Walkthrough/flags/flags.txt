@@ -1,0 +1,86 @@
+# Complete Flag List - myVulnApp CTF
+
+## Flag 1: Debug Stack Trace
+`CTF{kJb2n8sD_Hc8sD6fG1aS_ethixCTF26arena_2n8JhG4}`
+
+## Flag 2: Missing Security Headers
+`CTF{J8kL9m0_G4mP3oUt85s_ethixCTF26arena_pL9oKi8mJ7}`
+
+## Flag 3: Insecure Cookie
+`CTF{Hc8sD6fG1aS_2n8JhG4_ethixCTF26arena_J8kL9m0}`
+
+## Flag 4: HTTP Header Injection
+`CTF{2n8JhG4_kJb2n8sD_ethixCTF26arena_G4mP3oUt85}`
+
+## Flag 5: Timing Attack on Login
+`CTF{pL9oKi8mJ7n_J8kL9m0_ethixCTF26arena_Hc8sD6fG1}`
+
+## Flag 6: Debug API Endpoint
+`CTF{G4mP3oUt85s_2n8JhG4_ethixCTF26arena_pL9oKi8mJ}`
+
+## Flag 7: Missing CSRF Protection
+`CTF{J8kL9m0_G4mP3oUt85s_ethixCTF26arena_2n8JhG4}`
+
+## Flag 8: Plaintext Password
+`CTF{kJb2n8sD_pL9oKi8mJ7n_ethixCTF26arena_J8kL9m0}`
+
+## Flag 9: Union SQL Injection
+`CTF{Hc8sD6fG1aS_G4mP3oUt85s_ethixCTF26arena_2n8JhG}`
+
+## Flag 10: Path Traversal Upload
+`CTF{2n8JhG4_J8kL9m0_ethixCTF26arena_kJb2n8sD6}`
+
+## Flag 11: IDOR Note Deletion
+`CTF{G4mP3oUt85s_8sD6fG1aS_ethixCTF26arena_pL9oK}`
+
+## Flag 12: Weak Session Token
+`CTF{pL9oKi8mJ7n_kJb2n8sD_ethixCTF26arena_Hc8sD6fG}`
+
+## Flag 13: Session Fixation
+`CTF{J8kL9m0_2n8JhG4_ethixCTF26arena_G4mP3oUt8}`
+
+## Flag 14: XSS in Notes Display
+`CTF{Hc8sD6fG1aS_pL9oKi8m_ethixCTF26arena_Jb2n8sD}`
+
+## Flag 15: Hidden Admin Panel
+`CTF{2n8JhG4_G4mP3oUt85s_ethixCTF26arena_8sD6fG1}`
+
+## Flag 16: Logic Injection in Search
+`CTF{kJb2n8sD_Hc8sD6_ethixCTF26arena_pL9oKi8m}`
+
+## Flag 17: Insecure File Upload
+`CTF{8sD6fG1aS_dF3gH4_ethixCTF26arena_J8kL9m0}`
+
+## Flag 18: Info Disclosure Backup
+`CTF{pL9oKi8mJ7n_Bv8sD6_ethixCTF26arena_2n8JhG4}`
+
+## Flag 19: Auth Logic Bypass
+`CTF{G4mP3oUt85s_Hc8sD_ethixCTF26arena_kJb2n8sD}`
+
+## Flag 20: IDOR Admin Profile
+`CTF{ek6nk8sHbdkJbr29_kfb929J_ethixCTF26arena_9isnH82}`
+
+---
+
+## Quick Copy-Paste (One per line)
+
+CTF{kJb2n8sD_Hc8sD6fG1aS_ethixCTF26arena_2n8JhG4}
+CTF{J8kL9m0_G4mP3oUt85s_ethixCTF26arena_pL9oKi8mJ7}
+CTF{Hc8sD6fG1aS_2n8JhG4_ethixCTF26arena_J8kL9m0}
+CTF{2n8JhG4_kJb2n8sD_ethixCTF26arena_G4mP3oUt85}
+CTF{pL9oKi8mJ7n_J8kL9m0_ethixCTF26arena_Hc8sD6fG1}
+CTF{G4mP3oUt85s_2n8JhG4_ethixCTF26arena_pL9oKi8mJ}
+CTF{J8kL9m0_G4mP3oUt85s_ethixCTF26arena_2n8JhG4}
+CTF{kJb2n8sD_pL9oKi8mJ7n_ethixCTF26arena_J8kL9m0}
+CTF{Hc8sD6fG1aS_G4mP3oUt85s_ethixCTF26arena_2n8JhG}
+CTF{2n8JhG4_J8kL9m0_ethixCTF26arena_kJb2n8sD6}
+CTF{G4mP3oUt85s_8sD6fG1aS_ethixCTF26arena_pL9oK}
+CTF{pL9oKi8mJ7n_kJb2n8sD_ethixCTF26arena_Hc8sD6fG}
+CTF{J8kL9m0_2n8JhG4_ethixCTF26arena_G4mP3oUt8}
+CTF{Hc8sD6fG1aS_pL9oKi8m_ethixCTF26arena_Jb2n8sD}
+CTF{2n8JhG4_G4mP3oUt85s_ethixCTF26arena_8sD6fG1}
+CTF{kJb2n8sD_Hc8sD6_ethixCTF26arena_pL9oKi8m}
+CTF{8sD6fG1aS_dF3gH4_ethixCTF26arena_J8kL9m0}
+CTF{pL9oKi8mJ7n_Bv8sD6_ethixCTF26arena_2n8JhG4}
+CTF{G4mP3oUt85s_Hc8sD_ethixCTF26arena_kJb2n8sD}
+CTF{ek6nk8sHbdkJbr29_kfb929J_ethixCTF26arena_9isnH82}

